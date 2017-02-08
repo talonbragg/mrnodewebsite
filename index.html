@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mr.Node</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+    <link rel="shortcut icon" href="tophatlogo (2).png"/>
+    <meta name="author" content="Talon Bragg">
+    <meta name="description" content="A Javascript Library for Node.js Functions">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <div class="header">
+    <img src="tophatlogo (2).png">
+    <h4>Mr.Node</h4>
+    <h3 class="subheading">A Javascript Library for Node.js Functions</h3>
+    </div>
+    <div class="content">
+      <div class="container">
+        <h4>Why Use?</h4>
+        <p>Mr.Node is very fast and also very easy to use. You just have to type in a single function to get the code to work. He is very smart.</p>
+        <h4>Documentation</h4>
+        <h6>Npm install:</h6><span><p><code>npm install --save-dev mrnode</code></p></span>
+        <h6>Bower install:</h6><span><p><code>bower install --save-dev mrnode</code></p></span>
+        <h4>Usage</h4>
+        <p>The functions practically explain themselves.</p>
+        <pre class="prettyprint">
+          <code>
+            <span class="com">//Functions</span>
+            
+            <span class="com">//Creating files</span>
+            <span class="function">createjs</span><span class="parentheses">()</span>;
+            <span class="function">createcss</span><span class="parentheses">()</span>;
+            <span class="function">createhtml</span><span class="parentheses">()</span>;
+            <span class="function">createminjs</span><span class="parentheses">()</span>;
+            <span class="function">createmincss</span><span class="parentheses">()</span>;
+            
+            <span class="com">//Minify JS and CSS</span>
+            <span class="com">//use the gulp-uglify in the terminal</span>
+            <span class="function">minifyjs</span><span class="parentheses">()</span>;
+            <span class="function">minifycss</span><span class="parentheses">()</span>;
+            </code>
+        </pre>
+        <h5>Creating Files</h5>
+        <p>This takes the dependent of "fs"(filesystem). This is a node module. The dependencies are already listed in the package.JSON.</p>
+        <pre class="prettyprint">
+          <code>
+            <span class="com">//Functions</span>
+            
+            <span class="function">createjs</span><span class="parentheses">()</span>;
+            <span class="function">createcss</span><span class="parentheses">()</span>;
+            <span class="function">createhtml</span><span class="parentheses">()</span>;
+            <span class="function">createminjs</span><span class="parentheses">()</span>;
+            <span class="function">createmincss</span><span class="parentheses">()</span>;
+          </code>
+        </pre>
+        <p>This simply creates a file, maybe a file such as Javscript. That would be: <code>createjs();</code>. Or maybe you wanted to make a javascript file with the min extension. That would be this: <code>createminjs();</code>.</p>
+        <h5>Minifying Files</h5>
+        <p>Use these functions to minify certain files</p>
+        <pre>
+          <code>
+            <span class="com">//Minify JS and CSS</span>
+            <span class="com">//use the gulp-uglify in the terminal</span>
+            <span class="function">minifyjs</span><span class="parentheses">()</span>;
+            <span class="function">minifycss</span><span class="parentheses">()</span>;
+          </code>
+        </pre>
+        <p>For <code>minifyjs();</code>, use in the terminal: <code>$ gulp uglify</code>. For <code>minifycss();</code>, use in the terminal: <code>$ gulp minify</code>.</p>
+        <footer>
+          <h5>&copy; Talon Bragg 2017</h5>
+        </footer>
+      </div>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
