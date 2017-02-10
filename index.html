@@ -62,8 +62,8 @@
           <code>
             <span class="com">//Minify JS and CSS</span>
             <span class="com">//use the gulp-uglify in the terminal</span>
-            <span class="function">minifyjs</span><span class="parentheses">()</span>;
-            <span class="function">minifycss</span><span class="parentheses">()</span>;
+            <span class="function">minifyjs</span><span class="parentheses">(<span class="quote">'yourfolder/yourfile'</span>,<span class="quote">'yourdestination'</span>)</span>;
+            <span class="function">minifycss</span><span class="parentheses">(<span class="quote">'yourfolder/yourfile'</span>,<span class="quote">'yourdestinationfolder'</span>)</span>;
           </code>
         </pre>
         <p>For <code>minifyjs();</code>, use in the terminal: <code>$ gulp uglify</code>. For <code>minifycss();</code>, use in the terminal: <code>$ gulp minify</code>.</p>
@@ -73,30 +73,40 @@
           <code>
             <span class="com">//Functions</span>
             
-            <span class="function">delete</span><span class="parentheses">()</span>;
+            <span class="function">delete</span><span class="parentheses">(<span class="quote">'yourfolder/yourfile'</span>, <span class="quote">'yourdestination'</span>)</span>;
           </code>
         </pre>
-        <p>Note: this only works in your src folder. This is mainly because your src folder has multiple files that you later concat into your dist folder.</p>
+        <p>Fore this, you typer in your file that you want to delete as the first parameter. Then you type in your destination folder so that the program knows where the code should end up.</p>
         <h5>Beautify</h5>
         <p>This shows you how to beautify files.</p>
         <pre>
           <code>
             <span class="com">//Functions</span>
             
-            <span class="function">beautify</span><span class="parentheses">(<span class="quote">'yourfolder/yourfile'</span>)</span>;
+            <span class="function">beautify</span><span class="parentheses">(<span class="quote">'yourfolder/yourfile'</span>, <span class="quote">'yourdestinationfolder'</span>)</span>;
           </code>
         </pre>
-        <p>For this function, you choose which file to beautify by typing your file directory into the parameters for the function.</p>
+        <p>For this function, you choose which file to beautify by typing your file directory into the parameters for the function. Then type in your destination folder so that the program knows where the files should end up.</p>
         <h5>Convert Sass to CSS</h5>
         <p>This shows you how to convert Sass to CSS with Mr.Node.</p>
         <pre>
           <code>
             <span class="com">//Functions</span>
             
-            <span class="function">csass<span class="parentheses">(<span class="quote">'yourfolder/yourfile'</span>)</span></span>;
+            <span class="function">csass<span class="parentheses">(<span class="quote">'yourfolder/yourfile'</span>, <span class="quote">'yourdestinationfolder'</span>)</span></span>;
           </code>
         </pre>
-        <p>For this you want to type in your own file into the function parameter area, then go to your terminal and type this: <code>gulp sass</code>. This new css file will be in your <code>dist</code> folder.</p>
+        <p>For this you want to type in your own file into the function parameter area, then go to your terminal and type this: <code>gulp sass</code>. This new css file will be in your <b>destination</b> folder.</p>
+        <h5>Renaming Files</h5>
+        <p>This will show you how to rename your files.</p>
+        <pre>
+          <code>
+            <span class="com">//Functions</span>
+            
+            <span class="function">renameit</span><span class="parentheses">(<span class="quote">'yourfolder/yourfile</span>,<span class="quote">'newname'</span>,<span class="quote">'yourdestinationfolder'</span>)</span>;
+          </code>
+        </pre>
+        <p>First you want to type in the first parameter of what file you want to rename. Then type in the new name in the second parameter. Then all you need to do is type in the destination folder you want your renamed file to go to, in the third parameter.</p>
         <footer>
           <h5>&copy; Talon Bragg 2017</h5>
         </footer>
