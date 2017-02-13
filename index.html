@@ -31,12 +31,9 @@
             <span class="com">//Functions</span>
             
             <span class="com">//Creating files</span>
-            <span class="function">createjs</span><span class="parentheses">()</span>;
-            <span class="function">createcss</span><span class="parentheses">()</span>;
-            <span class="function">createhtml</span><span class="parentheses">()</span>;
-            <span class="function">createminjs</span><span class="parentheses">()</span>;
-            <span class="function">createmincss</span><span class="parentheses">()</span>;
-            
+             
+            <span class="function">create<span class="parentheses">(<span class="quote">'filename', 'fileextension'</span>)</span></span>; 
+             
             <span class="com">//Minify JS and CSS</span>
             <span class="com">//use the gulp-uglify in the terminal</span>
             <span class="function">minifyjs</span><span class="parentheses">()</span>;
@@ -49,14 +46,10 @@
           <code>
             <span class="com">//Functions</span>
             
-            <span class="function">createjs</span><span class="parentheses">()</span>;
-            <span class="function">createcss</span><span class="parentheses">()</span>;
-            <span class="function">createhtml</span><span class="parentheses">()</span>;
-            <span class="function">createminjs</span><span class="parentheses">()</span>;
-            <span class="function">createmincss</span><span class="parentheses">()</span>;
+            <span class="function">create<span class="parentheses">(<span class="quote">'filename', 'fileextension'</span>)</span></span>; 
           </code>
         </pre>
-        <p>This simply creates a file, maybe a file such as Javscript. That would be: <code>createjs();</code>. Or maybe you wanted to make a javascript file with the min extension. That would be this: <code>createminjs();</code>.</p>
+        <p>For creating files you are now able to chooe a file extension. You type in the file name as the first parameter and the file extension as the first parameter.</p>
         <h5>Minifying Files</h5>
         <p>Use these functions to minify certain files</p>
         <pre>
