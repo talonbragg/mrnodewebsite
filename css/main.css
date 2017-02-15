@@ -20,7 +20,7 @@ body {
 h1,h2,h3,h4,h5,h6 {
   font-family: 'Montserrat';
   font-weight: bold;
-  color:#6f7072;
+  color:#6B6B6B;
 /*   #2764c6 */
 }
 h1 {
@@ -119,4 +119,5 @@ footer {
 .github-button {
   bottom:5%;
   right:5%;
+  position:fixed;
 }
