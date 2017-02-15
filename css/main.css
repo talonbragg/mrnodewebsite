@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
-@import url('https://fonts.googleapis.com/css?family=Quicksand'); 
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css?family=Raleway:200');
 body {
   margin:0;
   padding:0;
@@ -14,8 +15,7 @@ body {
   text-align: center;
 }
 .subheading {
-  font-family:'Quicksand';
-  font-weight:2px;
+  font-family:'Raleway';
 }
 h1,h2,h3,h4,h5,h6 {
   font-family: 'Montserrat';
