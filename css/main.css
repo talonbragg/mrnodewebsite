@@ -122,6 +122,8 @@ footer {
   position:fixed;
 }
 .tweet{
-  padding-right: 120;
+  bottom:5%;
+  right:5%;
   position: fixed;
+  z-index: 100;
 }
