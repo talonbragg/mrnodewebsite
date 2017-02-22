@@ -15,26 +15,27 @@
     <h4>Mr.Node</h4>
     <h3 class="subheading">A Javascript Library for Node.js Functions</h3>
     <!-- Place this tag where you want the button to render. -->
-    <a class="github-button" href="https://github.com/talonbragg/Mr.Node" data-icon="octicon-star" data-count-href="/talonbragg/Mr.Node/stargazers" data-count-api="/repos/talonbragg/Mr.Node#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star talonbragg/Mr.Node on GitHub">Star</a>
+    <iframe src="https://ghbtns.com/github-btn.html?user=talonbragg&repo=Mr.Node&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe><br>
+    <span class="tweet"><a href="https://twitter.com/share" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></span>
     </div>
     <div class="content">
       <div class="container">
-        <h4>Why Use?</h4>
-        <p>Mr.Node is very fast and also very easy to use. Simple, self-explanatory functions<!--You just have to type in a single function to--> get the code to work like it should. He is very smart...</p>
+        <h4>About</h4>
+        <p>Mr.Node is very fast and also very easy to use. Simple, self-explanatory functions get the code to work like it should. He is very smart...</p>
         <h4>Documentation</h4>
         <h6>Npm:</h6><span><p><code id="npm">npm install --save-dev mrnode</code></p></span>
         <h6>Bower:</h6><span><p><code id="bower">bower install --save-dev mrnode</code></p></span>
-        <h6>CDN:</h6><span><p><code id="cdn"><span class="tag">&lt;script</span> <span class="att">src</span>=<span class="quote">"https://unpkg.com/mrnode@0.1.9/dist/js/main.min.js"</span><span class="tag">&gt;&lt;/script&gt;</span></code></p></span>
+        <h6>CDN:</h6><span><p><code id="cdn"><span class="tag">&lt;script</span> <span class="att">src</span>=<span class="quote">"https://unpkg.com/mrnode@1.0.0/dist/js/main.min.js"</span><span class="tag">&gt;&lt;/script&gt;</span></code></p></span>
         <h4>Usage</h4>
         <p>The functions practically explain themselves.</p>
-        <pre class="prettyprint">
+        <pre>
           <code>
             <span class="com">//Functions</span>
-            
+
             <span class="com">//Creating files</span>
-             
-            <span class="function">create<span class="parentheses">(<span class="quote">'filename', 'fileextension'</span>)</span></span>; 
-             
+
+            <span class="function">create<span class="parentheses">(<span class="quote">'filename', 'fileextension'</span>)</span></span>;
+
             <span class="com">//Minify JS and CSS</span>
             <span class="com">//use the gulp-uglify in the terminal</span>
             <span class="function">minifyjs</span><span class="parentheses">()</span>;
@@ -45,7 +46,7 @@
         <p>Use node's <code>require</code> attribute. Do this in a file called <code>mrnode.js</code>. Create This file in the root of your directory.</p>
         <pre>
           <code>
-            <span class="var">var <span class="vname">mrnode</span> = <span class="req">require</span><span class="parentheses">(<span class="quote">'mrnode'</span>)</span></span>; 
+            <span class="var">var <span class="vname">mrnode</span> = <span class="req">require</span><span class="parentheses">(<span class="quote">'mrnode'</span>)</span></span>;
           </code>
         </pre>
         <p>After you have done that, you are all set! Right after you have typed in one of Mr.Node's functions, type this into your terminal: <code>node mrnode.js</code>. Note: To do this you must be in the directory of your project. If you don't know how to do that, here you go: <code>cd \Users\youruser\yourdirectory</code>.</p>
@@ -54,11 +55,11 @@
         <pre class="prettyprint">
           <code>
             <span class="com">//Functions</span>
-            
-            <span class="vname">mrnode</span>.<span class="function">create<span class="parentheses">(<span class="quote">'filename', 'fileextension'</span>)</span></span>; 
+
+            <span class="vname">mrnode</span>.<span class="function">create<span class="parentheses">(<span class="quote">'filename', 'fileextension'</span>)</span></span>;
           </code>
         </pre>
-        <p>For creating files you are now able to chooe a file extension. You type in the file name as the first parameter and the file extension as the first parameter.</p>
+        <p>For creating files you are now able to choose a file extension. You type in the file name as the first parameter and the file extension as the second parameter.</p>
         <h5>Minifying Files</h5>
         <p>Use these functions to minify certain files</p>
         <pre>
@@ -75,17 +76,17 @@
         <pre>
           <code>
             <span class="com">//Functions</span>
-            
+
             <span class="var">mrnode</span>.<span class="function">delete</span><span class="parentheses">(<span class="quote">'yourfolder/yourfile'</span>, <span class="quote">'yourdestination'</span>)</span>;
           </code>
         </pre>
-        <p>Fore this, you type in your file that you want to delete as the first parameter. Then you type in your destination folder so that the program knows where the code should end up.</p>
+        <p>Before this, you type in your file that you want to delete as the first parameter. Then you type in your destination folder so that the program knows where the code should end up.</p>
         <h5>Beautify</h5>
         <p>This shows you how to beautify files.</p>
         <pre>
           <code>
             <span class="com">//Functions</span>
-            
+
             <span class="var">mrnode</span>.<span class="function">beautify</span><span class="parentheses">(<span class="quote">'yourfolder/yourfile'</span>, <span class="quote">'yourdestinationfolder'</span>)</span>;
           </code>
         </pre>
@@ -95,7 +96,7 @@
         <pre>
           <code>
             <span class="com">//Functions</span>
-            
+
             <span class="var">mrnode</span>.<span class="function">csass<span class="parentheses">(<span class="quote">'yourfolder/yourfile'</span>, <span class="quote">'yourdestinationfolder'</span>)</span></span>;
           </code>
         </pre>
@@ -105,7 +106,7 @@
         <pre>
           <code>
             <span class="com">//Functions</span>
-            
+
             <span class="var">mrnode</span>.<span class="function">renameit</span><span class="parentheses">(<span class="quote">'yourfolder/yourfile</span>,<span class="quote">'newname'</span>,<span class="quote">'yourdestinationfolder'</span>)</span>;
           </code>
         </pre>
@@ -119,15 +120,15 @@
         </pre>
         <p>The only thing that Mr.Node requires you to do in this function is type in the port that you would like your server to be hosted on. The port mush be 4 numbers, such as: <code>3000</code>. Type in to your terminal: <code>node mrnode.js</code>. Now go to <a href="http://localhost:yourport">http://localhost:yourport</a>. Your server should be running!</p>
         <h5>Transpiling files</h5>
-        <p>This will take you through how to transpile es5 and es6 to javascript.</p>
+        <p>This will take you through how to transpile es6 to es5.</p>
         <pre>
             <code>
-                <span class="vname">mrnode<span>.<span class="function">transpile</span><span class="paraentheses">(<span class="quote">'yourfile', 'destination'</span>)</span>;      
+                <span class="vname">mrnode<span>.<span class="function">transpile</span><span class="paraentheses">(<span class="quote">'yourfile', 'destination'</span>)</span>;
             </code>
         </pre>
         <p>All that you have to do is type in the file that you want to transpile. Then just select a destination of where you want the file to go when it is done transpiling.</p>
         <footer>
-          <h5>&copy; Talon Bragg 2017</h5>
+          <h5>&copy; Talon Bragg &amp; Shreyas Lad 2017</h5>
         </footer>
       </div>
     </div>

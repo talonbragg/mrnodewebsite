@@ -121,3 +121,9 @@ footer {
   right:5%;
   position:fixed;
 }
+.tweet{
+  bottom:5%;
+  right:5%;
+  position: fixed;
+  z-index: 100;
+}
