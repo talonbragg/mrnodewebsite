@@ -127,3 +127,20 @@ footer {
   position: fixed;
   z-index: 100;
 }
+/* color: #f93434; color: #21e5ff; */
+a{
+  text-decoration: none;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  color: #f93434;
+}
+a:hover{
+  text-decoration: none;
+  color: #21e5ff;
+}
+a,visited{
+  text-decoration: none;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  color: #f93434;
+}
